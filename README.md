@@ -70,12 +70,42 @@ The app will be running on
 ```
 0.0.0.0:5000
 ```
+
 ### QRadar SDK Package an App
+```
+qradar_app_creator package -w <path to myapp> -p <name of the zip file>
+```
+Example:
+```
+qradar_app_creator package -w ~/QradarApps/com.me.myApp.1.0.0/ -p com.me.myApp.1.0.0.zip
+```
+
+### QRadar SDK Deploy an App
+```
+qradar_app_creator deploy -q <QRadar console IP address> -u <QRadar user> -p com.mycompany.myapp.zip
+```
+Example:
+```
+qradar_app_creator deploy -q 192.168.1.100 -u admin -p com.me.myApp.1.0.0.zip
+```
 
 ### QRadar SDK Check app status
-  
-### QRadar SDK Delete an app
+```
+qradar_app_creator status -q <QRadar console IP address> -u <QRadar user> -a <app ID>
+```
+Example:
+```
+qradar_app_creator status -q 192.168.1.100 -u admin -a 1051
+```
 
+### QRadar SDK Delete an app
+```
+qradar_app_creator delete -q <QRadar console IP address> -u <QRadar user> -a <app ID>
+```
+Example:
+```
+qradar_app_creator delete -q 192.168.1.100  -u admin -a 1051
+```
 ### QRadar SDK logs
 
 

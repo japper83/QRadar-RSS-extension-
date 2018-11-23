@@ -8,16 +8,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+* [QRadar SDK download](https://exchange.xforce.ibmcloud.com/hub/extension/517ff786d70b6dfa39dde485af6cbc8b)- Qradar download package 
+Python 2.7.9 or later (Python 3 is not supported )
 
-```
-Give examples
-```
 
 ### QRadar SDK installing
-
-
-
 Deploy an App
 
 
@@ -42,7 +37,9 @@ End with an example of getting some data out of the system or using it for a lit
 
 #### Python Modules
 
-src_dps pip
+src_dps pip 
+pip2tgz
+
 
 #### Persistent storage 
 

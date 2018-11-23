@@ -65,6 +65,11 @@ Example:
 ```
 qradar_app_creator run -w ~/QradarApps/com.me.myApp.1.0.0/
 ```
+
+The app will be running on
+```
+0.0.0.0:5000
+```
 ### QRadar SDK Package an App
 
 ### QRadar SDK Check app status

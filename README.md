@@ -36,6 +36,17 @@ End with an example of getting some data out of the system or using it for a lit
 
 ### QRadar SDK Create an App
 
+```
+qradar_app_creator create -w <path to myapp>
+```
+
+example: 
+
+```
+qradar_app_creator create -w ~/QradarApps/com.me.myApp.1.0.0
+```
+
+
 #### Python Modules
 
 src_dps pip 
@@ -46,6 +57,14 @@ pip2tgz
 
 ### QRadar SDK Run an App Locally
 
+```
+qradar_app_creator run -w <path to myapp>
+```
+
+Example:
+```
+qradar_app_creator run -w ~/QradarApps/com.me.myApp.1.0.0/
+```
 ### QRadar SDK Package an App
 
 ### QRadar SDK Check app status

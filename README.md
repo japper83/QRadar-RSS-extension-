@@ -8,7 +8,8 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-* [QRadar SDK download](https://exchange.xforce.ibmcloud.com/hub/extension/517ff786d70b6dfa39dde485af6cbc8b)- Qradar download package 
+* [QRadar SDK download](https://exchange.xforce.ibmcloud.com/hub/extension/517ff786d70b6dfa39dde485af6cbc8b)- An IBM-ID is required for the download
+
 Python 2.7.9 or later (Python 3 is not supported )
 
 

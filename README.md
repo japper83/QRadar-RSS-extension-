@@ -14,7 +14,13 @@ What things you need to install the software and how to install them
 Give examples
 ```
 
-### QRadar SDK Installing
+### QRadar SDK installing
+
+
+
+Deploy an App
+
+
 
 A step by step series of examples that tell you how to get a development env running
 
@@ -32,23 +38,18 @@ until finished
 
 End with an example of getting some data out of the system or using it for a little demo
 
-### QRadar SDK Installing
+### QRadar SDK Create an App
 
-A step by step series of examples that tell you how to get a development env running
 
-Say what the step will be
+### QRadar SDK Run an App Locally
 
-```
-Give the example
-```
+### QRadar SDK Package an App
 
-And repeat
+### QRadar SDK Check app status
+  
+### QRadar SDK Delete an app
 
-```
-until finished
-```
 
-End with an example of getting some data out of the system or using it for a little demo
 
 
 ## Running the tests

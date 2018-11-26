@@ -14,25 +14,18 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ### QRadar SDK installing
-Deploy an App
-
-
-
-A step by step series of examples that tell you how to get a development env running
-
-Say what the step will be
+Create a folder named "qradar".
+Copy the QRadar SDK zip to the qradar folder.
+cd in the qradar folder.
+unzip the QRadar SDK zip with the command below:
+```
+unzip QRadarAppSDK-1.0.9.zip
+```
+run the install.sh script with root privileges
 
 ```
-Give the example
+sudo ./install.sh
 ```
-
-Example
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ### QRadar SDK Create an App
 To create a virtual development environment for the QRadar app run the following command:

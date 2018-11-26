@@ -35,6 +35,7 @@ until finished
 End with an example of getting some data out of the system or using it for a little demo
 
 ### QRadar SDK Create an App
+To create a virtual development environment for the QRadar app run the following command:
 
 ```
 qradar_app_creator create -w <path to myapp>
@@ -46,13 +47,28 @@ example:
 qradar_app_creator create -w ~/QradarApps/com.me.myApp.1.0.0
 ```
 
+The QRadar SDK will create the following files and folders:
+
+* app – contains source files for the app
+* manifest.json – JSON manifest file that describes the app
+* qradar_appfw_venv – Python virtual environment for running your app locally
+* run.py – default Python script for running your app locally
+
 
 #### Python Modules
+You can install Python Modules in the QRadar SDK by using the Python virtual environment. The example below will install 
+Feedparser in the QRadar SDK.
 
-src_dps pip 
-pip2tgz
+```
+ ~/QradarApps/com.me.myApp.1.0.0/qradar_appfw_venv/bin/pip install feedparser
+```
+Feedparser will now be avalable for the Python virtual environment. The Python Modules must be present in the src_deps folder if the app is deployed on QRadar. Use pip2tgz to convert the python module in a tar.gz file. 
 
-
+Example:
+```
+pip install pip2pi 
+pip2tgz ~/QradarApps/com.me.myApp.1.0.0/src_deps/pip feedparser
+```
 #### Persistent storage 
 
 ### QRadar SDK Run an App Locally

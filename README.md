@@ -109,10 +109,30 @@ qradar_app_creator delete -q 192.168.1.100  -u admin -a 1051
 ### QRadar SDK logs
 
 
+```
+sudo /opt/qradar/support/qapp_utils_730.py ps
+sudo /opt/qradar/support/qapp_utils_730.py connect <id>
+```  
 
+Example:
+```  
+sudo /opt/qradar/support/qapp_utils_730.py connect 1051
+```
+
+
+```
+tail -f /store/log/startup.log
+```
 ## QRadar extension
+```
+/opt/qradar/bin/contentManagement.pl --action export --content-type 100 --id <application_ID> 
+```
 
 
+Example:
+```
+/opt/qradar/bin/contentManagement.pl --action export --content-type 100 --id 1051
+```
 ## Built With
 feedparser
 rfeed

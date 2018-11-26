@@ -100,7 +100,7 @@ qradar_app_creator package -w ~/QradarApps/com.me.myApp.1.0.0/ -p com.me.myApp.1
 ```
 
 ### QRadar SDK Deploy an App
-The QRadar SDK app package can now be deloyed on the QRadar Server with the command below. An user with admin privileges is required for the deployment.    
+The QRadar SDK app package can now be deployed on the QRadar Server with the command below. An user with admin privileges is required for the deployment.    
 ```
 qradar_app_creator deploy -q <QRadar console IP address> -u <QRadar user> -p com.mycompany.myapp.zip
 ```

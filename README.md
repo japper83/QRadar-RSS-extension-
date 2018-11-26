@@ -2,7 +2,7 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
+These instructions will get you a running QRadar SDK with the QRadar RSS-Extension. 
 
 ### Prerequisites
 
@@ -20,14 +20,14 @@ Unzip the QRadar SDK zip with the command below:
 ```
 unzip QRadarAppSDK-1.0.9.zip
 ```
-run the install.sh script with root privileges
+Run the install.sh script with root privileges
 
 ```
 sudo ./install.sh
 ```
 
-### QRadar SDK Create an App
-To create a virtual development environment for the QRadar app run the following command:
+### QRadar SDK Create a new App
+To create a new virtual development environment for the QRadar app run the following command:
 
 ```
 qradar_app_creator create -w <path to myapp>
@@ -45,6 +45,9 @@ The QRadar SDK will create the following files and folders:
 * manifest.json – JSON manifest file that describes the app
 * qradar_appfw_venv – Python virtual environment for running your app locally
 * run.py – default Python script for running your app locally
+
+### QRadar SDK Use QRadar-RSS-Extension 
+An alternative is to use the QRadar-RSS-Extension. Copy the QRadar-RSS-Extension files to your QRadar SDK machine. The QRadar-RSS-Extension will function like virtual development environment. All the below options like run, package and deploy will work the same way. 
 
 
 #### Python Modules

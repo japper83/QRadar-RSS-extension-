@@ -1,7 +1,5 @@
 # QRadar RSS extension
 
-One Paragraph of project description goes here
-
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
@@ -14,10 +12,11 @@ These instructions will get you a copy of the project up and running on your loc
 
 
 ### QRadar SDK installing
-Create a folder named "qradar".
-Copy the QRadar SDK zip to the qradar folder.
-cd in the qradar folder.
-unzip the QRadar SDK zip with the command below:
+Create a folder named "qradar" and copy the QRadar SDK zip to the folder.
+
+Cd in the qradar folder.
+
+Unzip the QRadar SDK zip with the command below:
 ```
 unzip QRadarAppSDK-1.0.9.zip
 ```

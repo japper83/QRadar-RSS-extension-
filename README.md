@@ -69,6 +69,8 @@ Example:
 pip install pip2pi 
 pip2tgz ~/QradarApps/com.me.myApp.1.0.0/src_deps/pip feedparser
 ```
+More info on:
+* [QRadar SDK src_deps webpage](https://www.ibm.com/support/knowledgecenter/en/SS42VS_7.2.8/com.ibm.appfw.doc/c_appframework_dependencies.html)
 #### Persistent storage 
 
 ### QRadar SDK Run an App Locally

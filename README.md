@@ -51,7 +51,7 @@ An alternative is to use the QRadar-RSS-Extension. Copy the QRadar-RSS-Extension
 
 
 #### Python Modules
-You can install Python Modules in the QRadar SDK by using the Python virtual environment. The example below will install 
+You can install new Python Modules in the QRadar SDK by using the Python virtual environment. The example below will install 
 Feedparser in the QRadar SDK.
 
 ```

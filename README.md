@@ -65,7 +65,7 @@ Feedparser in the QRadar SDK.
 ```
  ~/QradarApps/com.me.myApp.1.0.0/qradar_appfw_venv/bin/pip install feedparser
 ```
-Feedparser will now be avalable for the Python virtual environment. The Python Modules must be present in the src_deps folder if the app is deployed on QRadar. Use pip2tgz to convert the python module in a tar.gz file. 
+Feedparser will now be available for the Python virtual environment. The Python Modules must be present in the src_deps folder if the app is deployed on QRadar. Use pip2tgz to convert the python module in a tar.gz file. 
 
 Example:
 ```

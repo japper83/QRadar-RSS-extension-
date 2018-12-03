@@ -47,8 +47,16 @@ The QRadar SDK will create the following files and folders:
 * run.py – default Python script for running your app locally
 
 ### QRadar SDK Use QRadar-RSS-Extension 
-An alternative is to use the QRadar-RSS-Extension. Copy the QRadar-RSS-Extension files to your QRadar SDK machine. The QRadar-RSS-Extension will function like virtual development environment. All the below options like run, package and deploy will work the same way. 
-
+An alternative is to use the QRadar-RSS-Extension. Copy the QRadar-RSS-Extension files to your QRadar SDK machine. The QRadar-RSS-Extension will function like virtual development environment. All the below options like run, package and deploy will work the same way. QRadar-RSS-Extension requires the following python modules:
+```
+feedparser
+rfeed
+apscheduler
+pyyaml
+flask_wtf
+python-dateutil
+```
+You can install them with the commands that are described below.
 
 #### Python Modules
 You can install new Python Modules in the QRadar SDK by using the Python virtual environment. The example below will install 
